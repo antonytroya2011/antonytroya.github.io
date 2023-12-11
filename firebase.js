@@ -2,7 +2,19 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getDatabase, ref, push, onValue, remove, update, get } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
+
 const firebaseConfig = {
+
+    apiKey: "AIzaSyBMJsVpnbOwVOiVNbTZScZdet9qlGigDL0",
+    authDomain: "conexion-8ec0d.firebaseapp.com",
+    databaseURL: "https://conexion-8ec0d-default-rtdb.firebaseio.com",
+    projectId: "conexion-8ec0d",
+    storageBucket: "conexion-8ec0d.appspot.com",
+    messagingSenderId: "679910299749",
+    appId: "1:679910299749:web:9800b464879628b4850e8c"
+}/*
+const firebaseConfig = {
+
     apiKey: "AIzaSyAucknqaA_nnDnJa1XWnB17ySKJkUvOWO4",
     authDomain: "villartell.firebaseapp.com",
     databaseURL: "https://villartell-default-rtdb.firebaseio.com",
@@ -10,7 +22,7 @@ const firebaseConfig = {
     storageBucket: "villartell.appspot.com",
     messagingSenderId: "265763773399",
     appId: "1:265763773399:web:f1b8c70bf4e2c198b54992"
-};
+    };;*/
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
