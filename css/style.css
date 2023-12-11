@@ -1,0 +1,32 @@
+.imagen-ajustada {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    max-width: 100%; 
+}
+
+.container.mt-5
+{
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff; 
+}
+.row.g-4.needs-validation.border
+{
+    position: relative;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('/img/azul.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
