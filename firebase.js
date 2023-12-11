@@ -12,7 +12,7 @@ const firebaseConfig = {
     storageBucket: "conexion-8ec0d.appspot.com",
     messagingSenderId: "679910299749",
     appId: "1:679910299749:web:9800b464879628b4850e8c"
-}/*
+};/*
 const firebaseConfig = {
 
     apiKey: "AIzaSyAucknqaA_nnDnJa1XWnB17ySKJkUvOWO4",
