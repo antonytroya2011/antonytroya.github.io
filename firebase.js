@@ -63,7 +63,7 @@ function letraNumero(inputElement) {
     inputElement.value = inputElement.value.toUpperCase();
 }
 
-if (codigoIsValid==letraNumero) {
+if (codigoIsValid!==letraNumero) {
     Swal.fire({
         icon: 'error',
         title: 'Fallo en el registro',
