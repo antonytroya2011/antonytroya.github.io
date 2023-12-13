@@ -60,6 +60,14 @@ const descripcionIsValid = descripcion.checkValidity();
 const cantidadIsValid = cantidad.checkValidity();
 const precioIsValid = precio.checkValidity();
 
+if (codigoIsValid=="False") {
+    Swal.fire({
+        icon: 'error',
+        title: 'Fallo en el registro',
+        text: 'Escriba bien el código',
+    });
+    return;
+}
 
 // Muestra la alerta si la cantidad o el precio son negativos
 
