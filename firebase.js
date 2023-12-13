@@ -59,8 +59,11 @@ const codigoIsValid = codigo.checkValidity();
 const descripcionIsValid = descripcion.checkValidity();
 const cantidadIsValid = cantidad.checkValidity();
 const precioIsValid = precio.checkValidity();
+function letraNumero(inputElement) {
+    inputElement.value = inputElement.value.toUpperCase();
+}
 
-if (codigoIsValid=="False") {
+if (codigoIsValid==letraNumero) {
     Swal.fire({
         icon: 'error',
         title: 'Fallo en el registro',
